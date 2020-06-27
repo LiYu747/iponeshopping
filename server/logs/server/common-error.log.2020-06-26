@@ -1,0 +1,2517 @@
+2020-01-06 00:09:34,739 ERROR 8604 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:35,304 ERROR 8604 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:35,891 ERROR 8604 [-/127.0.0.1/-/0ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:36,043 ERROR 8604 [-/127.0.0.1/-/0ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:36,141 ERROR 8604 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:36,220 ERROR 8604 [-/127.0.0.1/-/4ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:36,381 ERROR 8604 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:36,544 ERROR 8604 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:09:36,710 ERROR 8604 [-/127.0.0.1/-/0ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (F:\project\Shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\project\Shopping\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\project\Shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\project\Shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\project\Shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 8604
+hostname: Trayvon
+
+2020-01-06 00:27:03,150 ERROR 6036 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6036
+hostname: Trayvon
+
+2020-01-06 08:31:05,351 ERROR 3028 [-/127.0.0.1/-/16ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 08:31:28,759 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 08:53:00,869 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 08:53:16,448 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 08:56:02,745 ERROR 3028 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:01:48,456 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:05:35,553 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:05:37,497 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:08:21,595 ERROR 3028 [-/127.0.0.1/-/18ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782729015777aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782729015777aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782729015777aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:08:32,746 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:12:10,865 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782731308647aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782731308647aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782731308647aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:13:44,689 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782732246887aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782732246887aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782732246887aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:14:36,458 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782732764577aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782732764577aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782732764577aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:16:51,113 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782734111127aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782734111127aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782734111127aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:17:37,271 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782734572707aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782734572707aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782734572707aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:17:54,278 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:18:15,890 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:18:25,518 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782735055167aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782735055167aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782735055167aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:18:29,728 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:20:33,491 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:20:40,832 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:39:47,922 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782747879207aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+ENOENTError: ENOENT: no such file or directory, open 'E:\project\shop\server\app\public\avatar\15782747879207aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "E:\\project\\shop\\server\\app\\public\\avatar\\15782747879207aam5bbaa53j10_10e+25e0d3f98cb050b264c167d27.png"
+name: "ENOENTError"
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:39:58,469 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:46:38,725 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:53:04,148 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:53:06,536 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:53:21,316 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:54:36,141 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:55:29,912 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:56:01,950 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:56:11,663 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:56:18,832 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 09:56:49,028 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:03:32,305 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:09:23,664 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:10:06,659 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:10:23,623 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:10:54,482 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:12:43,154 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 10:16:55,502 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (E:\project\shop\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 11:25:23,019 ERROR 3028 [-/127.0.0.1/-/17ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (E:\project\shop\server\app\controller\api\user.js:453:52)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 11:26:06,062 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (E:\project\shop\server\app\controller\api\user.js:453:52)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 11:26:16,216 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (E:\project\shop\server\app\controller\api\user.js:453:52)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 11:26:49,815 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (E:\project\shop\server\app\controller\api\user.js:453:52)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 11:26:53,754 ERROR 3028 [-/127.0.0.1/-/2ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (E:\project\shop\server\app\controller\api\user.js:453:52)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-06 11:31:37,002 ERROR 3028 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (E:\project\shop\server\node_modules\_bson@1.1.3@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (E:\project\shop\server\app\controller\api\user.js:453:52)
+    at Object.callFn (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\project\shop\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\project\shop\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\project\shop\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\project\shop\server\app\middleware\isLogin.js:15:19
+    at dispatch (E:\project\shop\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3028
+hostname: STU008
+
+2020-01-08 16:44:34,940 ERROR 5040 [-/127.0.0.1/-/9ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:44:39,267 ERROR 5040 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:50:56,274 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:50:58,229 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:50:59,081 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:02,841 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:03,412 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:03,638 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:03,797 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:03,930 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:04,130 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:04,281 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:04,499 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:04,718 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:04,864 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:04,993 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:05,181 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:05,296 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:05,408 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:10,348 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:11,297 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:11,735 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:51:15,418 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:52:13,513 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:52:20,705 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:52:34,404 ERROR 5040 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:53:32,888 ERROR 5040 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:54:23,198 ERROR 5040 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 16:54:33,775 ERROR 5040 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (E:\project\shop\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async E:\project\shop\server\app\middleware\isLogin.js:15:13
+    at async E:\project\shop\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\project\shop\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\project\shop\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (E:\project\shop\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async E:\project\shop\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (E:\project\shop\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 5040
+hostname: STU008
+
+2020-01-08 20:03:52,415 ERROR 11628 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:04:54,125 ERROR 11628 [-/127.0.0.1/-/7ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:05:02,828 ERROR 11628 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:05:20,004 ERROR 11628 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:06:48,795 ERROR 11628 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:06:50,866 ERROR 11628 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:07:32,425 ERROR 11628 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-08 20:09:10,493 ERROR 11628 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (F:\project\Shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\project\Shopping\server\app\middleware\isLogin.js:15:13
+    at async F:\project\Shopping\server\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\project\Shopping\server\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\project\Shopping\server\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (F:\project\Shopping\server\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async F:\project\Shopping\server\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+    at async notfound (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\project\Shopping\server\node_modules\_egg@2.26.0@egg\app\middleware\meta.js:12:5)
+
+pid: 11628
+hostname: Trayvon
+
+2020-01-10 11:01:58,404 ERROR 9412 [-/127.0.0.1/-/17ms POST /v1/search] nodejs.MongoError: Skip value must be non-negative, but received: -20
+    at Connection.<anonymous> (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\pool.js:466:61)
+    at Connection.emit (events.js:210:5)
+    at processMessage (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\connection.js:384:10)
+    at Socket.<anonymous> (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\connection.js:553:15)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:326:12)
+    at readableAddChunk (_stream_readable.js:301:11)
+    at Socket.Readable.push (_stream_readable.js:235:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+ok: 0
+errmsg: "Skip value must be non-negative, but received: -20"
+code: 2
+codeName: "BadValue"
+name: "MongoError"
+pid: 9412
+hostname: STU008
+
+2020-01-10 11:02:12,603 ERROR 9412 [-/127.0.0.1/-/8ms POST /v1/search] nodejs.MongoError: Skip value must be non-negative, but received: -20
+    at Connection.<anonymous> (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\pool.js:466:61)
+    at Connection.emit (events.js:210:5)
+    at processMessage (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\connection.js:384:10)
+    at Socket.<anonymous> (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\connection.js:553:15)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:326:12)
+    at readableAddChunk (_stream_readable.js:301:11)
+    at Socket.Readable.push (_stream_readable.js:235:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+ok: 0
+errmsg: "Skip value must be non-negative, but received: -20"
+code: 2
+codeName: "BadValue"
+name: "MongoError"
+pid: 9412
+hostname: STU008
+
+2020-01-10 11:02:22,989 ERROR 9412 [-/127.0.0.1/-/3ms POST /v1/search] nodejs.MongoError: Skip value must be non-negative, but received: -20
+    at Connection.<anonymous> (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\pool.js:466:61)
+    at Connection.emit (events.js:210:5)
+    at processMessage (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\connection.js:384:10)
+    at Socket.<anonymous> (E:\project\finish\shop\server\node_modules\_mongodb@3.4.1@mongodb\lib\core\connection\connection.js:553:15)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:326:12)
+    at readableAddChunk (_stream_readable.js:301:11)
+    at Socket.Readable.push (_stream_readable.js:235:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:182:23)
+ok: 0
+errmsg: "Skip value must be non-negative, but received: -20"
+code: 2
+codeName: "BadValue"
+name: "MongoError"
+pid: 9412
+hostname: STU008
+
+2020-06-18 13:29:00,608 ERROR 3896 nodejs.ClusterClientNoResponseError: client no response in 1923980ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3896
+hostname: DESKTOP-A6LIVN7
+
+2020-06-19 12:33:27,698 ERROR 13680 nodejs.ClusterClientNoResponseError: client no response in 1370623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13680
+hostname: DESKTOP-A6LIVN7
+
+2020-06-23 13:29:01,624 ERROR 8948 nodejs.ClusterClientNoResponseError: client no response in 980325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 8948
+hostname: DESKTOP-A6LIVN7
+
+2020-06-24 13:32:04,654 ERROR 11784 nodejs.ClusterClientNoResponseError: client no response in 3704732ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11784
+hostname: DESKTOP-A6LIVN7
+
+2020-06-25 16:59:33,042 ERROR 7132 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 7132
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 13:54:27,193 ERROR 4780 [-/127.0.0.1/-/30ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:02:25,078 ERROR 4780 [-/127.0.0.1/-/3ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:04:12,155 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: { id: '449666157ac2438991810e0ae8947cad' } }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: { id: '449666157ac2438991810e0ae8947cad' } }\""
+kind: "string"
+value: {"id":{"id":"449666157ac2438991810e0ae8947cad"}}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:28,500 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:29,201 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:29,673 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:29,889 ERROR 4780 [-/127.0.0.1/-/0ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:30,382 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:30,564 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:05:30,632 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:08:22,712 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:09:42,137 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:09:42,619 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:09:43,105 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:10:36,055 ERROR 4780 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:10:48,048 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:11:07,318 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '449666157ac2438991810e0ae8947cad' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '449666157ac2438991810e0ae8947cad' }\""
+kind: "string"
+value: {"id":"449666157ac2438991810e0ae8947cad"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:29:46,882 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:29:48,153 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:31:42,696 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:31:43,158 ERROR 4780 [-/127.0.0.1/-/0ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:31:43,326 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:31:43,494 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:31:43,933 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5ef45e550ad2bd1bdcd4488d' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5ef45e550ad2bd1bdcd4488d' }\""
+kind: "string"
+value: {"id":"5ef45e550ad2bd1bdcd4488d"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:33:09,427 ERROR 4780 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5ef45e550ad2bd1bdcd4488d': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '5ef45e550ad2bd1bdcd4488d': '' }\""
+kind: "string"
+value: {"5ef45e550ad2bd1bdcd4488d":""}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 14:33:11,177 ERROR 4780 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5ef45e550ad2bd1bdcd4488d': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '5ef45e550ad2bd1bdcd4488d': '' }\""
+kind: "string"
+value: {"5ef45e550ad2bd1bdcd4488d":""}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:03:48,097 ERROR 4780 [-/127.0.0.1/-/19ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 2, mallPrice: 25 }" at path "count"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 2, mallPrice: 25 }\""
+kind: "Number"
+value: {"count":2,"mallPrice":25}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:03:51,525 ERROR 4780 [-/127.0.0.1/-/2ms POST /v1/editCart] nodejs.CastError: Cast to Number failed for value "{ count: 3, mallPrice: 25 }" at path "count"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ count: 3, mallPrice: 25 }\""
+kind: "Number"
+value: {"count":3,"mallPrice":25}
+path: "count"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:20:18,124 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5eeb154eae8fa22ea0a474c4' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5eeb154eae8fa22ea0a474c4' }\""
+kind: "string"
+value: {"id":"5eeb154eae8fa22ea0a474c4"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:20:18,987 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5eeb154eae8fa22ea0a474c4' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5eeb154eae8fa22ea0a474c4' }\""
+kind: "string"
+value: {"id":"5eeb154eae8fa22ea0a474c4"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:20:19,404 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5eeb154eae8fa22ea0a474c4' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5eeb154eae8fa22ea0a474c4' }\""
+kind: "string"
+value: {"id":"5eeb154eae8fa22ea0a474c4"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:20:19,596 ERROR 4780 [-/127.0.0.1/-/0ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '5eeb154eae8fa22ea0a474c4' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '5eeb154eae8fa22ea0a474c4' }\""
+kind: "string"
+value: {"id":"5eeb154eae8fa22ea0a474c4"}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:20:32,675 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5eeb154eae8fa22ea0a474c4': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '5eeb154eae8fa22ea0a474c4': '' }\""
+kind: "string"
+value: {"5eeb154eae8fa22ea0a474c4":""}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 15:20:33,483 ERROR 4780 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5eeb154eae8fa22ea0a474c4': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '5eeb154eae8fa22ea0a474c4': '' }\""
+kind: "string"
+value: {"5eeb154eae8fa22ea0a474c4":""}
+path: "cid"
+reason: null
+pid: 4780
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:15:46,816 ERROR 2636 [-/127.0.0.1/-/4ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5eeb154eae8fa22ea0a474c4': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '5eeb154eae8fa22ea0a474c4': '' }\""
+kind: "string"
+value: {"5eeb154eae8fa22ea0a474c4":""}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:15:47,063 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '5eeb154eae8fa22ea0a474c4': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '5eeb154eae8fa22ea0a474c4': '' }\""
+kind: "string"
+value: {"5eeb154eae8fa22ea0a474c4":""}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:25:58,158 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:25:58,743 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:25:59,228 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:26:02,583 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:47:43,696 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:47:44,736 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{}" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{}\""
+kind: "string"
+value: {}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:58:09,706 ERROR 2636 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '238bc2e023844769a6b67d9a4c04b2ea': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '238bc2e023844769a6b67d9a4c04b2ea': '' }\""
+kind: "string"
+value: {"238bc2e023844769a6b67d9a4c04b2ea":""}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:58:11,337 ERROR 2636 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '238bc2e023844769a6b67d9a4c04b2ea': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '238bc2e023844769a6b67d9a4c04b2ea': '' }\""
+kind: "string"
+value: {"238bc2e023844769a6b67d9a4c04b2ea":""}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:59:33,683 ERROR 2636 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '24afea564e5248b5a2bc59da95f09911': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '24afea564e5248b5a2bc59da95f09911': '' }\""
+kind: "string"
+value: {"24afea564e5248b5a2bc59da95f09911":""}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
+2020-06-26 22:59:36,643 ERROR 2636 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '24afea564e5248b5a2bc59da95f09911': '' }" at path "cid" for model "ShopList"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ '24afea564e5248b5a2bc59da95f09911': '' }\""
+kind: "string"
+value: {"24afea564e5248b5a2bc59da95f09911":""}
+path: "cid"
+reason: null
+pid: 2636
+hostname: DESKTOP-A6LIVN7
+
