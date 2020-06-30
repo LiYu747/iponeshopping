@@ -61,7 +61,11 @@
 
     <div v-else>
       <div class="toptop pos-rel">
-   <div >去购物</div>
+       <div class="fz-18  fz-cu flex-d al-center">
+         <div>您的购物车是空的哦!</div>
+         <div>去购物吧 Go~~~</div>
+         </div>
+        <div><img src="../img/购物.png" alt="" class="img-null"></div>
       </div>
    
     </div>
@@ -157,14 +161,18 @@ export default {
       this.msg = this.arr.filter(item1 => {
         return item1.check === true;
       });
-      this.$router.push({ path: "Settlement", query: { id: this.msg } });
+      this.$router.push("Settlement");
+      localStorage.setItem('num',JSON.stringify(this.msg))
     }
   },
   mounted() {
     this.$api
       .GetCard()
       .then(res => {
+        //  获取数量
+        this.$store.commit("setShopList", res.shopList);
         this.arr = res.shopList;
+         this.$store.commit('shop',res.shopList)
         console.log(res);
       })
       .catch(err => {});
@@ -242,5 +250,9 @@ export default {
 }
 .bottom {
   margin-bottom: 210px;
+}
+.img-null{
+  width: 100%;
+  height: auto;
 }
 </style>

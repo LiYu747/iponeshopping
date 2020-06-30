@@ -8,7 +8,11 @@ import api from './http/api'
 import { IndexBar, IndexAnchor } from 'vant';
 import { Lazyload } from 'vant';
 import { PullRefresh } from 'vant';
+import { AddressList } from 'vant';
+import { Dialog } from 'vant';  //弹出框
 
+Vue.use(AddressList);
+Vue.use(Dialog);   //弹出框
 Vue.use(PullRefresh);
 Vue.use(Lazyload);
 

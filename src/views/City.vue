@@ -50,7 +50,7 @@ export default {
  }
   },
   mounted() {
-   console.log(this.city)
+  
   },
   watch: {},
   computed: {

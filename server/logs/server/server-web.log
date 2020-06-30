@@ -1,0 +1,1789 @@
+2020-06-28 22:33:06,066 ERROR 9672 [-/127.0.0.1/-/32ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:33:37,121 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:36:33,874 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:40:18,522 ERROR 9672 [-/127.0.0.1/-/16ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:42:16,537 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:43:08,111 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:45:10,098 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:46:14,611 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:46:39,647 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:47:02,491 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:47:30,553 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:47:53,834 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:13,252 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:15,472 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:21,243 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:36,585 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:54,516 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:55,072 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:48:57,007 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:49:09,003 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:49:10,385 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:50:26,042 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:50:27,792 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:50:56,080 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:51:20,771 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:53:09,497 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:53:10,913 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:53:41,745 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:54:33,513 ERROR 9672 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 22:54:53,176 ERROR 9672 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 23:03:39,990 ERROR 9672 [-/127.0.0.1/-/20ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.count: Cast to Number failed for value "[ 2, 1 ]" at path "count", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.1.count: Cast to Number failed for value "[ 2, 1 ]" at path "count", order_list.1.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.count":{"stringValue":"\"[ 2, 1 ]\"","kind":"Number","value":[2,1],"path":"count","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.1.count":{"stringValue":"\"[ 2, 1 ]\"","kind":"Number","value":"~order_list.0.count~value","path":"count","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.1.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-28 23:03:41,929 ERROR 9672 [-/127.0.0.1/-/17ms POST /v1/order] nodejs.ValidationError: OrderList validation failed: mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.0.count: Cast to Number failed for value "[ 2, 1, 2, 1 ]" at path "count", order_list.0.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.1.count: Cast to Number failed for value "[ 2, 1, 2, 1 ]" at path "count", order_list.1.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.2.count: Cast to Number failed for value "[ 2, 1, 2, 1 ]" at path "count", order_list.2.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice", order_list.3.count: Cast to Number failed for value "[ 2, 1, 2, 1 ]" at path "count", order_list.3.mallPrice: Cast to Number failed for value "NaN" at path "mallPrice"
+    at model.Document.invalidate (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:2574:32)
+    at model.$set (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:1246:12)
+    at model._handleIndex (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:979:14)
+    at model.$set (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:920:22)
+    at model.Document (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\document.js:139:12)
+    at model.Model (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:107:12)
+    at new model (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\model.js:4706:15)
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:223:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+errors: {"mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.count":{"stringValue":"\"[ 2, 1, 2, 1 ]\"","kind":"Number","value":[2,1,2,1],"path":"count","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.0.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.1.count":{"stringValue":"\"[ 2, 1, 2, 1 ]\"","kind":"Number","value":"~order_list.0.count~value","path":"count","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.1.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.2.count":{"stringValue":"\"[ 2, 1, 2, 1 ]\"","kind":"Number","value":"~order_list.0.count~value","path":"count","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.2.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.3.count":{"stringValue":"\"[ 2, 1, 2, 1 ]\"","kind":"Number","value":"~order_list.0.count~value","path":"count","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}},"order_list.3.mallPrice":{"stringValue":"\"NaN\"","kind":"Number","value":null,"path":"mallPrice","reason":{"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}}}
+_message: "OrderList validation failed"
+pid: 9672
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:30:02,316 ERROR 2020 [-/127.0.0.1/-/5ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:30:04,457 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:30:22,785 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:30:31,842 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:31:08,932 ERROR 2020 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:31:31,908 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:31:37,945 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:32:32,109 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:32:34,514 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:32:39,714 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:32:43,885 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:33:42,748 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:33:49,194 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 08:33:51,101 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:197:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:44:51,564 ERROR 2020 [-/127.0.0.1/-/6ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:45:41,828 ERROR 2020 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:45:43,151 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:45:44,384 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:45:44,936 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:22,266 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:22,881 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:23,663 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:24,730 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:25,436 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:45,528 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:46,450 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:47,444 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:48:47,912 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:50:00,581 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:50:10,172 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:50:11,535 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 10:50:12,176 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: {}
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 11:51:18,447 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 11:51:22,142 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 13:03:35,180 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:07,831 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '418fc60784d04e71beffe1ce5174c947' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '418fc60784d04e71beffe1ce5174c947' }\""
+kind: "string"
+value: {"id":"418fc60784d04e71beffe1ce5174c947"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:11,464 ERROR 2020 [-/127.0.0.1/-/3ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:12,743 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:16,253 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:18,163 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:21,810 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:22,657 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:04:25,785 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:06:32,828 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:06:35,566 ERROR 2020 [-/127.0.0.1/-/0ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:06:38,839 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:06:41,177 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:06:43,514 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:03,276 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:04,026 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:04,982 ERROR 2020 [-/127.0.0.1/-/0ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:05,437 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:06,567 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:07,256 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:08,126 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:11,215 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:12,898 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:15,082 ERROR 2020 [-/127.0.0.1/-/2ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:28,777 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-29 14:07:40,399 ERROR 2020 [-/127.0.0.1/-/1ms POST /v1/isCollection] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "Collection"
+    at model.Query.exec (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4351:21)
+    at model.Query.Query.then (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_mongoose@5.9.19@mongoose\lib\query.js:4443:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: null
+pid: 2020
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 10:06:58,527 ERROR 12684 [-/127.0.0.1/-/4ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 12684
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 10:07:54,634 ERROR 12684 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 12684
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 10:07:55,788 ERROR 12684 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-development@2.5.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-session@6.0.0@koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-static-cache@5.1.3@koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg@2.26.1@egg\app\middleware\meta.js:12:5)
+
+pid: 12684
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:29:45,307 ERROR 3980 [-/127.0.0.1/-/3ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:30:02,540 ERROR 3980 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:31:19,242 ERROR 3980 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:32:20,025 ERROR 3980 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:33:49,636 ERROR 3980 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:34:04,166 ERROR 3980 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:34:56,834 ERROR 3980 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:35:08,078 ERROR 3980 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:35:26,680 ERROR 3980 [-/127.0.0.1/-/1ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+
+2020-06-30 15:35:58,645 ERROR 3980 [-/127.0.0.1/-/0ms POST /v1/evaluateOne] nodejs.Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+    at new ObjectID (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:59:11)
+    at ObjectID [as ObjectId] (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_bson@1.1.4@bson\lib\bson\objectid.js:40:43)
+    at UserController.evaluateOne (C:\Users\ddd\Desktop\shopping-ly\server\app\controller\api\user.js:453:52)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at C:\Users\ddd\Desktop\shopping-ly\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 3980
+hostname: DESKTOP-A6LIVN7
+

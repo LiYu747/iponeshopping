@@ -1,17 +1,33 @@
 <template>
   <div>
     <!-- 用户 -->
-    <div class="flex ju-center">
-      <div class="text fz-14">会员中心</div>
-    </div>
-    <div class="box pos-rel flex-d al-center ju-center">
-       <van-icon name="setting" @click="Modify" class="move" />
-      <div>
-        <img :src="arr.avatar" alt class="img" />
+    <div v-if="this.name===null">
+     <div class="flex ju-center">
+        <div class="text fz-14">会员中心</div>
       </div>
-      <div class="itl bai fz-cu">欢迎您：{{arr.nickname}}</div>
-      <div class="bai fz-14">退出登录</div>
+      <div class="box pos-rel flex-d al-center ju-center">
+        <div>
+          <img src="../img/购物.png" alt class="img" />
+        </div>
+        <div class="bai fz-14" @click="goto">登录/注册</div>
+      </div>
     </div>
+    <!-- 已登录 -->
+    <div v-else>
+      <div class="flex ju-center">
+        <div class="text fz-14">会员中心</div>
+      </div>
+      <div class="box pos-rel flex-d al-center ju-center">
+        <van-icon name="setting" @click="Modify" class="move" />
+        <div>
+          <img :src="arr.avatar" alt class="img" />
+        </div>
+        <div class="itl bai fz-cu">欢迎您：{{arr.nickname}}</div>
+        <div class="bai fz-14" @click="out">退出登录</div>
+      </div>
+    </div>
+
+    
     <!-- 订单 -->
     <div class="van-hairline--bottom flex m-t1">
       <div class="flex-d al-center aa">
@@ -35,9 +51,9 @@
         <div class="fz-12">待收货</div>
       </div>
 
-      <div class="flex-d al-center">
+      <div class="flex-d al-center"  @click="gooo">
         <div class="Icon">
-          <van-icon name="thumb-circle-o" />
+          <van-icon :badge=AlreadyEvaluated name="thumb-circle-o" />
         </div>
         <div class="fz-12">评价</div>
       </div>
@@ -49,7 +65,7 @@
         <div class="fz-12">已完成</div>
       </div>
     </div>
-  
+
     <!-- 全部订单 -->
     <Allson></Allson>
 
@@ -58,8 +74,8 @@
 </template>
 
 <script>
-import Allson from '../components/userInformation/Allson'
-import Baserail from '../components/baserail/Baserail'
+import Allson from "../components/userInformation/Allson";
+import Baserail from "../components/baserail/Baserail";
 export default {
   name: "",
   props: {},
@@ -69,10 +85,19 @@ export default {
   },
   data() {
     return {
-      arr: {}
+      arr: {},
+      name:null,
+      AlreadyEvaluated:""
+
     };
   },
   methods: {
+    gooo(){
+        this.$router.push('EvaluationCenter')
+    },
+    goto(){
+      this.$router.push('Login')
+    },
     User() {
       this.$api
         .UserInformation()
@@ -83,12 +108,24 @@ export default {
           console.log(ree);
         });
     },
-    Modify(){
-      this.$router.push('/Modify')
+    out() {
+      this.$api
+        .LoginOut()
+        .then(res => {
+          console.log(res);
+          localStorage.removeItem('username')
+         this.$router.go(0)
+        })
+        .catch(err => {});
+    },
+    Modify() {
+      this.$router.push("/Modify");
     }
   },
   mounted() {
+    this.name=localStorage.getItem("username");
     this.User();
+      this.AlreadyEvaluated = localStorage.getItem("AlreadyEvaluated");
   },
   watch: {},
   computed: {}

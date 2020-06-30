@@ -12,7 +12,10 @@ export default new Vuex.Store({
     // 分类
     category:[],
     // 全部
-    Alltxt:{}
+    Alltxt:{},
+    // 购物车
+    shopList:[],
+   cartNum:0,
   },
   mutations: {
     setCity(state,data){
@@ -27,6 +30,19 @@ export default new Vuex.Store({
     setAlltxt(state,data){
       state.Alltxt=data
     },
+    shop(state,data){
+      state.shopList=data
+    },
+    setShopList(state,data){
+      state.shopList = data
+    },
+    setCartNum(state,data){
+      state.cartNum =data
+    },
+    addCartNum(state){
+      state.cartNum += 1
+    }
+
   },
   actions: {
   },

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="GG-sd-HHHH">
     <div class="va">
 
       <div class="text fz-14 ">商品分类</div>

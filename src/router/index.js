@@ -58,7 +58,50 @@ Vue.use(VueRouter)
     name: 'Settlement',
     component: () => import ('../views/Settlement.vue')
   },
+  // 地址管理
+  {
+    path: '/AddressManagement',
+    name: 'AddressManagement',
+    component: () => import ('../views/AddressManagement.vue')
+  },
+  // 编辑地址
+  {
+    path: '/NewAddress',
+    name: 'NewAddress',
+    component: () => import ('../views/NewAddress.vue')
+  },
+  // 收藏列表
+  {
+    path: '/FavoritesList',
+    name: 'FavoritesList',
+    component: () => import ('../views/FavoritesList.vue')
+  },
+  // 全部订单
+  {
+    path: '/Allorders',
+    name: 'Allorders',
+    component: () => import ('../views/Allorders')
+  },
+  // 评价中心
+  {
+  path: '/EvaluationCenter',
+  name: 'EvaluationCenter',
+  component: () => import ('../views/EvaluationCenter.vue')
+  },
+  // 评价
+  {
+    path: '/Evaluate',
+    name: 'Evaluate',
+    component: () => import ('../views/Evaluate.vue')
+    },
+    // 评价详情
+    {
+      path: '/EvaluationDetails',
+      name: 'EvaluationDetails',
+      component: () => import ('../views/EvaluationDetails.vue')
+      },
 
+    
   
 ]
 

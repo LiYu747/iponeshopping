@@ -3,7 +3,7 @@
 <van-tabbar route>
   <van-tabbar-item icon="wap-home-o" replace to='/'>商城</van-tabbar-item>
   <van-tabbar-item icon="wap-nav" dot  to='/Classification'>  分类</van-tabbar-item>
-  <van-tabbar-item icon="shopping-cart" badge="5" to='/ShoppingCart'>购物车</van-tabbar-item>
+  <van-tabbar-item icon="shopping-cart" :badge='cartNum' to='/ShoppingCart'>购物车</van-tabbar-item>
   <van-tabbar-item icon="contact" replace to='/UserInformation'>我的</van-tabbar-item>
 </van-tabbar>
  </div>
@@ -23,16 +23,33 @@
      }
    },
    methods: {
-   
+    //  获取数量
+   getData() {
+      //获取购物车数据
+      this.$api
+        .GetCard()
+        .then(res => {
+          this.$store.commit("setCartNum", res.shopList.length);
+          this.shoplist = res.shopList;
+          // console.log(this.shoplist);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    },
    },
    mounted() {
-     
+     //  获取数量
+     this.getData()
    },
    watch: {
 
    },
    computed: {
-
+     //  获取数量
+        cartNum(){
+      return this.$store.state.cartNum
+    }  
    }
  }
 </script>
