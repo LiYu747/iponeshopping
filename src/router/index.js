@@ -100,7 +100,12 @@ Vue.use(VueRouter)
       name: 'EvaluationDetails',
       component: () => import ('../views/EvaluationDetails.vue')
       },
-
+    // 最近浏览
+    {
+      path: '/Browse',
+      name: 'Browse',
+      component: () => import ('../views/Browse.vue')
+      },
     
   
 ]

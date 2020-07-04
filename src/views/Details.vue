@@ -55,8 +55,8 @@
           <van-tab title="商品评价">
             <!-- 名字头像 -->
             <div class="van-hairline--bottom fz-14">
-                <div v-for="items in young" :key="items.id">
-                       <div v-for="item in items.user" :key="item.id">
+                <div v-for="(items,indexs) in young" :key="indexs">
+                    <div v-if="name!==null"><div  v-for="(item,index) in items.user" :key="index"></div>       
                          <div class="flex pos-rel">
                      <div class="m-t1 m-l1"><img :src="item.avatar" alt="" class="v-img"></div>
                      <div>
@@ -114,7 +114,7 @@
             <div>剩下{{arr.amount}}件</div>
            <div class="red1 m-l1">每人限购50件</div>
            </div>
-           <div class="ste pos-abs"> <van-stepper v-model="value" min="1" max="50" /></div> 
+           <div class="ste pos-abs"> <van-stepper  v-model="arr.count" min="1" max="50" /></div> 
            </div>
        </div>
          <div class="momo pos-abs"><van-button type="primary" color="red" @click="gotoshop" block>立即购买</van-button></div> 
@@ -125,6 +125,7 @@
 <script>
 import BScroll from "better-scroll";
 import { Toast } from 'vant';
+import { Dialog } from 'vant';
 export default {
   name: "",
   props: {},
@@ -136,22 +137,53 @@ export default {
       active: 0,
       flag: false,
       show: false,
-      value: 1,
+      value: '',
       isCollection:'',
-      name:null,
-      young:[]
+      name:'',
+      young:[],
+      lable:'0'
     };
   },
   methods: {
+     
+   
     // 购买
     gotoshop(){
-      console.log(this.arr);
-     this.$router.push({path:'/Settlement',query:{moon:this.arr}})
-
+   
+  this.$router.push({path:'/Settlement',
+     query:{moon:this.arr,lable:this.lable,value:this.value}})
+     localStorage.setItem('moon',JSON.stringify(this.arr))
+     localStorage.setItem('lable',this.lable)
+    
+   
+ //  修改数量
+     this.$api
+        .EditCart({
+          count: this.arr.count,
+          id: this.arr.cid,
+          mallPrice: this.arr.mallPrice
+        })
+        .then(res => {
+          console.log(res);
+        })
+        .catch(err => {});
     },
     // 加入购物车
     gotocat(){
-       this.$api.AddToCart(this.ids)
+       if(this.name===null){
+      this.$dialog
+        .confirm({
+          message: "请登录"
+        })
+       .then(() => {
+    // on confirm
+      })
+       .catch(() => {
+    // on cancel
+  });
+      }
+      else{
+  this.$api.AddToCart(this.ids)
        .then(res=>{
          Toast.success(res.msg)
     
@@ -159,9 +191,25 @@ export default {
        .catch(err=>{
 
        })
+      }
+      
     },
     showPopup() {
-      this.show = true;
+         if(this.name===null){
+      this.$dialog
+        .confirm({
+          message: "请登录"
+        })
+       .then(() => {
+    // on confirm
+      })
+       .catch(() => {
+    // on cancel
+  });
+      }
+      else{
+    this.show = true;
+      }
     },
     // 收藏
     fag(){
@@ -223,6 +271,7 @@ export default {
       .Details(this.ids)
       .then(res => {
         this.arr = res.goods.goodsOne;
+         this.$utils.addViews(res.goods.goodsOne)
          // 获取评论
         res.goods.comment.map(item=>{
       this.$api.EvaluateOne({id:this.ids,_id:item._id})
@@ -236,8 +285,7 @@ export default {
       })
       .catch(ree => {});
      
-     
-      
+       
      
     // 下拉滑动
     new BScroll(this.$refs.Silky, {

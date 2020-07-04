@@ -1,8 +1,8 @@
 <template>
  <div>
-     <Navson></Navson>
-      
-     <div class="sky" ref="Silky">
+     <Navson @vvs='vvs' @msg='msg'></Navson>
+      <div v-if="falg==='1'">
+        <div class="sky" ref="Silky">
        <div class="somll-b">
      <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
     <Twson></Twson>
@@ -12,10 +12,16 @@
     <Fiveson :floorName='floorName2'  :floor='floor2' ></Fiveson>
     <Fiveson :floorName='floorName3'  :floor='floor3'></Fiveson>
     <Hotsale></Hotsale>
-  
  </van-pull-refresh>
  </div>
      </div>  
+      </div>
+      <div v-if="falg==='0'">
+        <div v-for="item in text" :key="item.id">
+                 {{item.name}}
+        </div>
+        </div>
+   
       <Baserail></Baserail>
  </div>
 </template>
@@ -52,6 +58,8 @@ import { Toast } from 'vant'
       floorName1:'',
       floorName2:'',
       floorName3:'',
+      falg:'1',
+      text:[]
 
      }
    },
@@ -63,6 +71,13 @@ import { Toast } from 'vant'
         this.count++;
       }, 1000);
     },
+    vvs(data){
+    this.falg = data
+    },
+    msg(data){
+      this.text = data
+     console.log(data);
+    }
    },
    mounted() {
      this.$api.homeAll()

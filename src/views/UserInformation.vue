@@ -53,7 +53,8 @@
 
       <div class="flex-d al-center"  @click="gooo">
         <div class="Icon">
-          <van-icon :badge=AlreadyEvaluated name="thumb-circle-o" />
+          <van-icon v-if="name === null" name="thumb-circle-o" />
+          <van-icon v-else :badge=AlreadyEvaluated name="thumb-circle-o" />
         </div>
         <div class="fz-12">评价</div>
       </div>
@@ -65,7 +66,7 @@
         <div class="fz-12">已完成</div>
       </div>
     </div>
-
+     
     <!-- 全部订单 -->
     <Allson></Allson>
 
@@ -76,6 +77,7 @@
 <script>
 import Allson from "../components/userInformation/Allson";
 import Baserail from "../components/baserail/Baserail";
+import { Dialog } from 'vant';
 export default {
   name: "",
   props: {},
@@ -93,7 +95,22 @@ export default {
   },
   methods: {
     gooo(){
-        this.$router.push('EvaluationCenter')
+      if(this.name===null){
+           Dialog.confirm({
+          title: '标题',
+          message: '您还没登录，去登陆吧~~~',
+       })
+       .then(() => {
+    // on confirm
+      })
+       .catch(() => {
+    // on cancel
+  });
+      }
+      else{
+       this.$router.push('EvaluationCenter')
+      }
+        
     },
     goto(){
       this.$router.push('Login')
@@ -114,6 +131,7 @@ export default {
         .then(res => {
           console.log(res);
           localStorage.removeItem('username')
+          localStorage.removeItem('Manual')
          this.$router.go(0)
         })
         .catch(err => {});

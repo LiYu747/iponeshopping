@@ -71,6 +71,7 @@ export default {
   methods: {
     goto(itemb){
        this.$router.push({path:'/Details',query:{id:itemb.id}})
+       this.$utils.addViews(itemb)
     },
     add(item) {
       this.id = item.bxMallSubDto[0].mallSubId;

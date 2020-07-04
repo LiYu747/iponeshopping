@@ -32,13 +32,12 @@ import { Toast } from 'vant';
    data () {
      return {
        list:[],
-chosenAddressId:''
+chosenAddressId:'1',
+look:true
      }
    },
    methods: {
-     rete(){
-       this.$router.push('Settlement')
-     },
+    
       onAdd() {
       this.$router.push('/NewAddress')
     },
@@ -46,14 +45,8 @@ chosenAddressId:''
      this.$router.push({path:'/NewAddress',query:{obj:JSON.stringify(item,index)}})
     },
     select(item,index){
-      this.$api
-      .SetDefaultAddress(item)
-      .then(res=>{
-        this.GetAddress()
-      })
-      .catch(err=>{
-        console.log(err);
-      })
+     this.$router.push({path:'Settlement',query:{add:item,look:this.look}})
+    
     },
 
     GetAddress(){
@@ -62,15 +55,20 @@ this.$api.GetAddress()
       this.list = res.address
       res.address.map((item, index) => {
           this.$set(item,'id',(index+1).toString())
+           
         })
     })
     .catch(err=>{
       console.log(err)
     })
-    }
+    },
+     rete(){
+       this.$router.go(-1)
+     },
    },
    mounted() {
     this.GetAddress()
+     this.chosenAddressId = localStorage.getItem('index')
    },
    watch: {
 

@@ -58,7 +58,10 @@ rete(){
     id:content._id
     })
     .then(res=>{
-          this.$router.push('AddressManagement')
+          this.$router.go(-1)
+          if(content.isDefault === true){
+            localStorage.setItem('index',content.id)
+          }
     })
     .catch(err=>{
       console.log(err)

@@ -123,6 +123,7 @@ this.canClick = true //这里重新开启
           message: '登录成功',
     });
      localStorage.setItem('username',this.username)
+     this.$router.push('/')
         }
      else if(res.code===-1){
              this.$dialog.alert({

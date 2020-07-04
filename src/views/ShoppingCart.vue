@@ -27,7 +27,14 @@
         </div>
       </div>
     </div>
-    <div v-if="arr.length>0">
+      <div v-if="username===null">
+          <div class="pos-end flex-d al-center">
+            <div>您还没有登录哦~~~</div>
+          <div class=" m-t1" @click="login"> <van-button style="height:40px" type="warning">去登陆吧！</van-button></div>  
+              <div class=" m-t1"><img src="../img/timg.jpg" alt="" class="img-null"></div></div> 
+       </div>
+       <div v-if="username!==null">
+<div v-if="arr.length>0">
       <div class="topp pos-rel">
         <!-- 商品详情 -->
         <div v-for="item in arr" :key="item.id">
@@ -58,8 +65,9 @@
       </div>
       <div class="bottom"></div>
     </div>
+     
 
-    <div v-else>
+    <div v-if="arr.length<1">
       <div class="toptop pos-rel">
        <div class="fz-18  fz-cu flex-d al-center">
          <div>您的购物车是空的哦!</div>
@@ -67,15 +75,18 @@
          </div>
         <div><img src="../img/购物.png" alt="" class="img-null"></div>
       </div>
-   
     </div>
-
+       </div>
+    
+       
+     
     <Baserail></Baserail>
   </div>
 </template>
 
 <script>
 import Baserail from "../components/baserail/Baserail";
+import { Dialog } from 'vant';
 export default {
   name: "",
   props: {},
@@ -88,21 +99,46 @@ export default {
       arr: [],
       ass: [],
       ids: [],
-      aaa: []
+      aaa: [],
+      lable:'1',
+      username:'',
+      checkrun:false
+    
     };
   },
   methods: {
     // 全选
     All() {
-      this.arr.map(item => {
+       if(this.username===null){
+           Dialog.confirm({
+          title: '标题',
+          message: '您还没登录，去登陆吧~~~',
+       })
+       }
+       else{
+          this.arr.map(item => {
         item.check = this.Allchecked;
       });
+       }
     },
     // 删除
     del() {
-      this.$dialog
+      if(this.username===null){
+           Dialog.confirm({
+          title: '标题',
+          message: '您还没登录，去登陆吧~~~',
+       })
+  .then(() => {
+   this.$router.push('/Login')
+  })
+  .catch(() => {
+    // on cancel
+  });  
+      }
+      else{
+             this.$dialog
         .confirm({
-          title: "标题",
+          title: "提示",
           message: "您确定要删除吗"
         })
         .then(() => {
@@ -136,6 +172,18 @@ export default {
       if (this.arr.length === 0) {
         this.Allchecked === false;
       }
+       
+         if(this.arr.every(item=>{
+           return item.check === false
+         })){
+           Dialog.confirm({
+          title: '提示',
+          message: '您还有没选择商品哦~',
+       })
+        }
+        
+      }
+     
     },
     //    判断是否全选
     chang(item) {
@@ -158,14 +206,44 @@ export default {
     },
     // 结算页面
     Goto() {
-      this.msg = this.arr.filter(item1 => {
+      if(this.username===null){
+           Dialog.confirm({
+          title: '提示',
+          message: '您还没登录，去登陆吧~~~',
+       })
+  .then(() => {
+   this.$router.push('/Login')
+  })
+  .catch(() => {
+    // on cancel
+  });  
+      }
+      else{
+         if(this.arr.every(item=>{
+           return item.check === false
+         })){
+           Dialog.confirm({
+          title: '提示',
+          message: '您还有没选择商品哦~',
+       })}
+       else{
+            this.msg = this.arr.filter(item1 => {
         return item1.check === true;
       });
-      this.$router.push("Settlement");
+      this.$router.push({path:"Settlement",query:{num:JSON.stringify(this.msg),lables:this.lable}});
       localStorage.setItem('num',JSON.stringify(this.msg))
+      localStorage.setItem('lable',this.lable)
+       }
+     
+      }
+     
+    },
+    login(){
+      this.$router.push('/Login')
     }
   },
   mounted() {
+    
     this.$api
       .GetCard()
       .then(res => {
@@ -176,17 +254,21 @@ export default {
         console.log(res);
       })
       .catch(err => {});
+      this.username = localStorage.getItem('username')
+      
   },
   watch: {},
   computed: {
     // 定义总价
     total() {
       let sum = 0;
-      this.arr.map(item => {
+      if(this.username!==null){
+         this.arr.map(item => {
         if (item.check) {
           sum += item.mallPrice * item.count;
         }
       });
+      }
       return sum;
     }
   },
@@ -199,6 +281,11 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+.pos-end{
+  position: relative;
+  top: 160px;
+ 
+}
 .toptop{
   top: 200px;
 }

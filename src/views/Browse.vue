@@ -3,31 +3,33 @@
     <div class="van-hairline--bottom">
        <div class=" flex ju-center pad pos-rel">
      <div class="lft pos-abs"> <van-icon name="arrow-left" @click="rete" color="rgb(101,152,250)"/> </div>    
-   <div>我的收藏</div> 
+   <div>最近浏览</div> 
        </div>
      </div>
      
-     <div v-if='arr.length>0' >
-   <div v-for="item in arr" :key="item.id" >
-     <div class="van-hairline--bottom hairline fz-14 flex pos-rel">
-          <div class=" m-l2"><img :src="item.image_path" alt="" class="img"></div>
+     <div >
+   <div v-for="(item,index) in arr" :key="index" >
+        <div class="van-hairline--bottom hairline fz-14 flex pos-rel">
+ <div class=" m-l2"><img :src="item.image" alt="" class="img"></div>
         <div class=" m-l1">
         <div>{{item.name}}</div> 
-        <div class="red m-t2">{{item.present_price | fixed }}</div> 
+        <div class="flex ">
+       <div class="red m-t2">{{item.present_price | fixed }}</div>
+       <s class="iui">{{item.orl_price}}</s> 
         </div>
-            <div class="flex al-center ju-center pos-abs move"><van-icon @click="cancel" name="cross" /></div>
+        </div>
+            <div class="flex al-center ju-center pos-abs move"><van-icon @click="del(item,index)" name="cross" /></div>
+        </div>
         </div>
      </div>
-       
-     </div>
-     <div v-else>
-      <div>您还没有收藏的商品哦，快去收藏吧~~~</div>
-     </div>
-     
+   
  </div>
 </template>
 
 <script>
+import groupBy from 'lodash/groupBy'
+import uniqWith from 'lodash/uniqWith'
+import isEqual from 'lodash/isEqual'
  export default {
    name: '',
    props: {
@@ -37,42 +39,22 @@
    },
    data () {
      return {
-   arr:[],
-   id:''
+     arr:[]
      }
    },
    methods: {
-rete(){
-  this.$router.go(-1)
-},
-cancel(){
-   this.arr.map(item=>{
-        this.id = item.cid 
-   })
-    this.$api.CancelCollection({id:this.id})
-      .then(res=>{
-      console.log(res);
-      })
-      .catch(err=>{
-      })
-       this.Collection()
-       },
-
-      Collection(){
-        this.$api.Collection()
-   .then(res=>{
-    console.log(res.data.list);
-    this.arr = res.data.list
-   })
-   .catch(err=>{
-   })
-     
-}
+      rete(){
+        this.$router.go(-1)
+      },
+      del(item,index){
+         this.arr.splice(index,1)
+         localStorage.setItem('views',JSON.stringify(this.arr))
+      }
    },
    mounted() {
-   this.Collection()
-
-   
+    let arr = JSON.parse(localStorage.getItem('views'))
+    this.arr = uniqWith(arr,isEqual)
+    console.log(this.arr);
    },
    watch: {
 
@@ -89,6 +71,10 @@ cancel(){
 </script>
 
 <style scoped lang='scss'>
+.iui{
+  margin-top: 23px;
+  margin-left: 5px;
+}
 .pad{
   padding: 10px 0;
 }

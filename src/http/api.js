@@ -33,11 +33,14 @@ export default {
       return service.post('/queryUser')
     },
     // 修改用户信息
-    Preservation({username,nickname,gender}){
+    Preservation(gender,year,month,day,id,nickname){
       return service.post('/saveUser',{
-        username:username,
-        nickname:nickname,
-        gender:gender
+          gender,
+          year,
+          month,
+          day,
+          id,
+          nickname
       })
     },
     // 详情页
@@ -142,6 +145,10 @@ export default {
   // 查询单条评论
   EvaluateOne({id,_id}){
     return service.post('/evaluateOne',{id:id,_id:_id})
+  },
+  // 搜索
+  Search({value:value}){
+    return service.post('/search',{value:value})
   }
   
 

@@ -2,22 +2,24 @@
   <div> 
     <!-- 城市列表-->
     <div class="nav flex al-center ju-center pos-rel">
-     <div class=" pos-abs left-n" @click="Return">＜</div>
+     <div class=" pos-abs left-n" @click="Return"><van-icon size="16px" name="arrow-left" /></div>
      <div class="fz-14">城市列表</div>
     </div>
     <!-- 搜索 -->
     <div class="box-t">
-    <div ><van-search background="rgb(242,242,242)" placeholder="请输入城市关键词" class="color-t ipt"/></div>
-    <div class=" fz-14 m-l1">当前城市</div>
+    <div ><van-search background="rgb(242,242,242)"  @input='ipt' @focus='obtain' v-model="value" placeholder="请输入城市关键词" class="color-t ipt"/></div>
+    <div class=" fz-14 m-l1"></div>
     </div>
-    <!-- 当前城市 -->
+    <div v-if="flag === 0">
+ <!-- 当前城市 -->
+       <div class=" fz-14 text">当前城市</div>
       <div class="box-th fz-14">
       <div class="cit flex al-center ju-center">{{citys}}</div> 
       </div>
       <!-- 热门城市 -->
       <div class="city-f fz-14 flex al-center">热门城市</div>
       <div class="box-f">
-        <div v-for="item in this.city.data.hotCities" :key="item.id">
+        <div v-for="item in this.city.data.hotCities" @click="goto(item)" :key="item.id">
           <div class=" m-l2 m-t1">
    <div class="cit flex al-center ju-center fz-14">{{item.name}}</div> 
           </div>   
@@ -25,6 +27,13 @@
       </div>
       <!-- 城市列表 -->
         <Cityson></Cityson>
+    </div>
+    <div v-else>
+         <div v-for="item in msg" @click="goto(item)"  :key="item.id">
+           {{item.name }} 
+         </div>
+    </div>
+   
   </div>
 </template>
 
@@ -40,17 +49,47 @@ export default {
   data() {
     return {
      arr:{},
-     city:city
+     city:city,
+     value:'',
+     flag:0,
+     msg:[],
+     datas:[],
+     boox:[]
       
     };
   },
   methods: {
  Return(){
    this.$router.go(-1)
- }
+ },
+ obtain(){
+   this.flag = 1
+ },
+ ipt(){
+       if(this.value === ''){
+         this.msg=[]
+       }
+       else{
+           this.msg = this.boox.filter(item1=>{
+        // return item.includes(value) === true
+        return JSON.stringify(item1).indexOf(this.value) !== -1
+      })
+       }
+ },
+    goto(item){
+          console.log(item);
+      this.$router.push('/')
+      localStorage.setItem('Manual',JSON.stringify(item))
+    },
+        
   },
   mounted() {
-  
+    this.datas=Object.values(this.city.data.cities) ;
+      this.datas.map((item,index)=>{
+           item.map(items=>{
+           this.boox.push(items)
+           })
+       })
   },
   watch: {},
   computed: {
@@ -72,7 +111,7 @@ export default {
 }
 .box-t{
   width: 100%;
-  height: 80px;
+  height: 50px;
   background: rgb(242,242,242);
 }
 .van-search__content{
@@ -102,5 +141,10 @@ export default {
 }
 .ipt{
   width: 370px;
+}
+.text{
+  width: 100%;
+  background: rgb(242,242,242);
+  padding: 10px 0;
 }
 </style>

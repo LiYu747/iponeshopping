@@ -1,4 +1,5 @@
 <template>
+   <!-- 全部 -->
  <div class="box">
      <div class=" flex-d al-center ">
          <div class=" flex pos-rel al-center ju-center box-b">
@@ -112,7 +113,7 @@
 }
 .box{
     background: rgb(242,242,242);
-     height: 100vh;
+     height: 100%;
 }
 .box-every{
     width: 90%;

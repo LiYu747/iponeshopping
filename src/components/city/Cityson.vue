@@ -1,9 +1,9 @@
 <template>
   <div>
     <van-index-bar class="fz-color-AZ">
-        <div v-for="(item,index) in msg" :key="index">
-        <van-index-anchor :index='item' />
-    <van-cell  v-for="items in datas[item]" :key="items.id"
+        <div v-for="(item,index) in msg"  :key="index">
+        <van-index-anchor :index='item'  />
+    <van-cell  v-for="items in datas[item]" @click="goto(items)" :key="items.id"
     :title="items.name"
     />
         </div>
@@ -28,7 +28,11 @@ export default {
   },
   methods: {
          
-     
+      goto(items){
+          console.log(items);
+      this.$router.push('/')
+      localStorage.setItem('Manual',JSON.stringify(items))
+    },
     
   },
   mounted() {

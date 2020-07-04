@@ -1,7 +1,7 @@
 <template>
  <div>
      <!-- 商品推荐 -->
-     <div class=" m-l2 m-t1">商品推荐</div>
+     <div class=" m-l2  m-t1">商品推荐</div>
      <div class="big-box flex" ref="transverse">
  <div class="flex soml-box ju-center">
      <div v-for="(item,index) in Alltxt.recommend" :key="index">
@@ -10,7 +10,7 @@
          <div class="name fz-14">{{item.goodsName}}</div>
          <div class="flex al-center fz-14">
   <div>￥{{item.mallPrice}}</div>
-         <div class=" fz-12">￥{{item.price}}</div>
+         <s class=" fz-12">￥{{item.price}}</s>
          </div>
          <!-- 查看详情 -->
          <div class=" flex">
@@ -39,7 +39,7 @@ import { Toast } from 'vant';
    },
    data () {
      return {
-
+      aaa:1
      }
    },
    methods: {

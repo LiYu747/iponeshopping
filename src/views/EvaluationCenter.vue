@@ -74,6 +74,7 @@
          //  未评价请求
        this.$api.TobeEvaluated()
        .then(res=>{
+         localStorage.setItem('AlreadyEvaluated',res.data.list.length)
          this.arr = res.data.list
        })
        .catch(err=>{
@@ -82,7 +83,6 @@
       //  已评价请求
          this.$api.AlreadyEvaluated()
        .then(res=>{
-         localStorage.setItem('AlreadyEvaluated',res.data.list.length)
          this.msg = res.data.list
          console.log(this.msg);
        })

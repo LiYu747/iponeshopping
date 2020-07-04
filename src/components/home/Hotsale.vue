@@ -1,8 +1,8 @@
 <template>
  <div>
-   <div>热销商品</div>
-        <div class=" flex b-box">
-<div v-for="item in hotsale.hotGoods" :key="item.id">
+   <div class=" m-l2 m-t1 red">热销商品</div>
+        <div class="m-t1 flex b-box fz-14">
+<div v-for="item in hotsale.hotGoods" @click="goto(item)" :key="item.id">
   
            <div class="box flex-d al-center">
         <!-- 商品图片 -->
@@ -10,13 +10,13 @@
              <img :src="item.image" alt="" class="img">
          </div>
          <!-- 商品名称 -->
-         <div class="text">
+         <div class="text red">
              {{item.name}}
          </div>
          <!-- 价格 -->
          <div class="flex">
-             <div>￥{{item.price}}</div>
-             <div>￥{{item.mallPrice}}</div>
+             <div class="red">￥{{item.price}}</div>
+             <s>￥{{item.mallPrice}}</s>
          </div>
            </div>
        </div>
@@ -38,7 +38,9 @@
      }
    },
    methods: {
-
+        goto(item){
+    this.$router.push({path:'/Details',query:{id:item.goodsId}})
+        }
    },
    mounted() {
   
@@ -67,6 +69,7 @@
 }
 .b-box{
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 .box{
     width: 185px;

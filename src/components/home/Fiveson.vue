@@ -1,24 +1,24 @@
 <template>
   <div>
-    <div>{{floorName}}</div>
+    <div class="m-t1 red m-l2">{{floorName}}</div>
     <div class="flex">
-      <div v-for="item in floor.slice(0,1)" :key="item.id">
+      <div v-for="item in floor.slice(0,1)" @click="goto(item)" :key="item.id">
         <img :src="item.image" alt class="img" />
       </div>
       <div>
-        <div v-for="item in floor.slice(1,2)" :key="item.id">
+        <div v-for="item in floor.slice(1,2)" @click="goto(item)" :key="item.id">
           <img :src="item.image" alt class="img1" />
         </div>
-        <div v-for="item in floor.slice(2,3)" :key="item.id">
+        <div v-for="item in floor.slice(2,3)" @click="goto(item)" :key="item.id">
           <img :src="item.image" alt class="img1" />
         </div>
       </div>
     </div>
     <div class="flex">
-         <div v-for="item in floor.slice(3,4)" :key="item.id">
+         <div v-for="item in floor.slice(3,4)" @click="goto(item)" :key="item.id">
           <img :src="item.image" alt class="img1" />
         </div>
-        <div v-for="item in floor.slice(4,5)" :key="item.id">
+        <div v-for="item in floor.slice(4,5)" @click="goto(item)" :key="item.id">
           <img :src="item.image" alt class="img1" />
         </div>
     </div>
@@ -40,7 +40,13 @@ export default {
   data() {
     return {};
   },
-  methods: {},
+  methods: {
+    goto(item){
+      console.log(item);
+       this.$router.push({path:'/Details',query:{id:item.goodsId}})
+    
+    }
+  },
   mounted() {},
   watch: {},
   computed: {}

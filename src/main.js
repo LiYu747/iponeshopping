@@ -10,6 +10,11 @@ import { Lazyload } from 'vant';
 import { PullRefresh } from 'vant';
 import { AddressList } from 'vant';
 import { Dialog } from 'vant';  //弹出框
+import utils from './utils'
+import { DatetimePicker } from 'vant';
+
+
+Vue.use(DatetimePicker);
 
 Vue.use(AddressList);
 Vue.use(Dialog);   //弹出框
@@ -21,6 +26,7 @@ Vue.use(IndexAnchor);
 Vue.use(Vant);
 Vue.config.productionTip = false
 Vue.prototype.$api = api
+Vue.prototype.$utils = utils
 new Vue({
   router,
   store,

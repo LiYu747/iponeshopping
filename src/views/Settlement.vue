@@ -34,34 +34,52 @@
       <img src="../img/caitiao.jpg" alt class="img" />
     </div>
 
-    <!-- 数据 -->
-    <!-- 购车来的 -->
-    <!-- <div>
-<div v-for="item in arr" :key="item.id">
-      <div class="van-hairline--bottom">
-        <div class="flex">
-          <div>
-            <img :src="item.image_path" alt class="img-b" />
+    <!-- 详情页from -->
+    <div v-if="idDi ==='0'">
+        <div class="van-hairline--bottom fz-14">
+          <div class="flex pos-rel">
+            <div class=" m-l2 m-t1">
+              <img :src="moon.image_path" alt class="img-b" />
+            </div>
+            <div class=" m-l2 m-t1">
+              <div class="red1">{{moon.name}}</div>
+              <div class="m-t1 flex">
+                    <div class="red1">{{moon.present_price | fixed}}</div>
+                    <div class="rig-r pos-abs">x{{moon.count}}</div>
+            </div>
           </div>
-          <div>
-            <div>{{item.name}}</div>
-            <div>{{item.mallPrice}}</div>
-          </div>
-          <div>{{item.count}}</div>
         </div>
       </div>
+      <van-submit-bar :price="totol*100" button-text="提交订单" @submit="onSubmit" />
     </div>
-    <van-submit-bar :price=total*100 button-text="提交订单" @submit="onSubmit" />
-    </div> -->
-       
-    <!-- 详情页from -->
-       <div>
-         
-       </div>
+    <!-- 数据 -->
+    <!-- 购车来的 -->
+    <div v-if="idDi === '1'">
+      <div v-for="item in arr" :key="item.id">
+        <div class="van-hairline--bottom fz-14">
+          <div class="flex pos-rel">
+            <div class=" m-l2 m-t1">
+              <img :src="item.image_path" alt class="img-b" />
+            </div>
+            <div class=" m-l2 m-t1">
+              <div class="red1">{{item.name}}</div>
+              <div class="m-t1 flex">
+                    <div class="red1">{{item.mallPrice | fixed}}</div>
+                    <div class="rig-r pos-abs">x{{item.count}}</div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <van-submit-bar :price="total*100" button-text="提交订单" @submit="onSubmit" />
+    </div>
   </div>
 </template>
 
 <script>
+import { Toast } from 'vant';
 export default {
   name: "",
   props: {},
@@ -72,72 +90,142 @@ export default {
       add: {},
       // 数据
       arr: [],
-      ids:[],
-      count:'',
-      idDirect:false,
-      moon:{}
+      count: "",
+      ids: [],
+      ida:[],
+      idDi: "0",
+      moon: {},
+      kk: "",
+      present_price: "",
+      look:false
     };
   },
+
   methods: {
-    reter() {
-      this.$router.push("ShoppingCart");
-    },
+   
     goto() {
       this.$router.push("/AddressManagement");
     },
-    onSubmit(){
-     
-         this.arr.map(item=>{
-           this.ids.push(item.cid)  
-         })
-              this.$api
-              .playder({address:this.add.address,tel:this.add.tel,orderId:this.ids,totalPrice:this.total,
-      idDirect:this.idDirect,count:this.count})
-         .then(res=>{
-           console.log(res)
-         })
-         .catch(err=>{
-           console.log(err)
-         })
-       
-      
-    }
+    onSubmit() {
+          if(this.idDi==='1'){
+             this.arr.map(item=>{
+             this.ids.push(item.cid)
+           })
+                this.$api
+                .playder({address:this.add.address,tel:this.add.tel,orderId:this.ids,totalPrice:this.total,
+        idDirect:false,count:this.arr.length})
+           .then(res=>{
+               Toast.success(res.msg);
+               this.$router.push('/')
+           })
+           .catch(err=>{
+             console.log(err)
+           })
+      }
+      else{
+             this.ida.push(this.moon.id)
+                this.$api
+                .playder({address:this.add.address,tel:this.add.tel,orderId:this.ida,totalPrice:this.totol,
+        idDirect:true,count:this.moon.count})
+           .then(res=>{
+                Toast.success(res.msg);
+               this.$router.push('/')
+           })
+           .catch(err=>{
+             console.log(err)
+           })
+      }
+    },
+     reter() {
+      this.$router.go(-1);
+    },
   },
   mounted() {
-            this.moon=this.$route.query.moon
-     this.arr = JSON.parse(localStorage.getItem('num')) 
+    //  详情页
+    if(localStorage.lable){
+    this.idDi = localStorage.getItem('lable')
    
-    if(this.$route.query.add){
-       this.add = this.$route.query.add;
+    }
+    else{{
+    this.idDi = this.$route.query.lable;
+    }}
+    // 购物车1
+    if(localStorage.lables){
+     this.idDis = localStorage.getItem('lables')
+   
     }
     else{
-      this.$api
+        this.idDis = this.$route.query.lables;
+    }
+    
+
+    // 购物车
+    if (localStorage.num) {
+      
+      this.arr = JSON.parse(localStorage.getItem("num"));
+  
+    } else {
+      this.arr = JSON.parse(this.$route.query.num);
+    }
+
+    //  详情页from
+    if (localStorage.moon) {
+      this.moon = JSON.parse(localStorage.getItem("moon"));
+      
+    } else {
+      this.moon = this.$route.query.moon;
+    }
+ 
+    //  地址
+    this.look = this.$route.query.look
+ 
+    if(this.look === true){
+       this.add = this.$route.query.add
+    }
+    else{
+         this.$api
       .GetDefaultAddress()
       .then(res => {
         this.add = res.defaultAdd;
       })
       .catch(err => {});
-       this.idDirect = false
     }
-    
+      
+     
   },
   watch: {},
+   filters: {
+        fixed(val) {
+          return '￥' + Number(val).toFixed(2)
+        }
+      },
   computed: {
-       total() {
+    total() {
       let sum = 0;
       this.arr.map(item => {
-          sum += (item.mallPrice * item.count);
+        sum += item.mallPrice * item.count;
       });
       return sum;
-    }
+    },
+    totol() {
+      return this.moon.present_price * this.moon.count;
+    },
+     
   }
 };
 </script>
 
 <style scoped lang='scss'>
+.rig-r{
+  right: 40px;
+}
+.van-hairline--bottom{
+  padding: 10px 0;
+}
 .img-b {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgb(240,240,240);
 }
 .color {
   color: rgb(251, 208, 170);
@@ -169,7 +257,10 @@ export default {
   width: 100%;
   height: 5px;
 }
-.text{
+.text {
   text-decoration: underline;
+}
+.red1{
+  color: red;
 }
 </style>
