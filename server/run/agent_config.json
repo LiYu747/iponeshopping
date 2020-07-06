@@ -346,7 +346,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-session@3.2.0@egg-session",
       "version": "3.2.0"
     },
@@ -359,7 +359,7 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-security@2.8.0@egg-security",
       "version": "2.8.0"
     },
@@ -372,7 +372,7 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
@@ -385,7 +385,7 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
@@ -396,7 +396,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
@@ -407,7 +407,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher",
       "version": "3.1.1"
     },
@@ -418,7 +418,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
@@ -431,7 +431,7 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart",
       "version": "2.10.3"
     },
@@ -446,7 +446,7 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-development@2.5.0@egg-development",
       "version": "2.5.0"
     },
@@ -459,7 +459,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
@@ -470,7 +470,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
@@ -481,7 +481,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.26.1@egg\\config\\plugin.js",
+      "from": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg@2.27.0@egg\\config\\plugin.js",
       "path": "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\node_modules\\_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
