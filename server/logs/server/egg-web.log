@@ -690,3 +690,20 @@
 2020-07-06 15:40:34,517 INFO 11828 [egg-mongoose] instance[0] start successfully
 2020-07-06 15:40:34,520 INFO 11828 [egg-watcher:application] watcher start success
 2020-07-06 15:40:34,533 INFO 11828 [egg:core] dump config after ready, 7ms
+2020-07-06 15:47:15,758 INFO 4812 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-06 15:47:15,796 INFO 4812 [egg-multipart] stream mode enable
+2020-07-06 15:47:16,459 INFO 4812 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-07-06 15:47:16,984 INFO 4812 [egg-static] starting static serve /public/ -> C:\Users\ddd\Desktop\shopping-ly\server\app\public
+2020-07-06 15:47:16,990 INFO 4812 [egg-security] use methodnoallow middleware
+2020-07-06 15:47:16,992 INFO 4812 [egg-security] use noopen middleware
+2020-07-06 15:47:16,996 INFO 4812 [egg-security] use nosniff middleware
+2020-07-06 15:47:16,998 INFO 4812 [egg-security] use xssProtection middleware
+2020-07-06 15:47:16,999 INFO 4812 [egg-security] use xframe middleware
+2020-07-06 15:47:17,000 INFO 4812 [egg-security] use dta middleware
+2020-07-06 15:47:17,000 INFO 4812 [egg-security] compose 6 middlewares into one security middleware
+2020-07-06 15:47:17,038 INFO 4812 [egg:core] dump config after load, 7ms
+2020-07-06 15:47:17,044 INFO 4812 [egg-mongoose] starting...
+2020-07-06 15:47:17,102 INFO 4812 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-07-06 15:47:17,109 INFO 4812 [egg-mongoose] instance[0] start successfully
+2020-07-06 15:47:17,116 INFO 4812 [egg-watcher:application] watcher start success
+2020-07-06 15:47:17,127 INFO 4812 [egg:core] dump config after ready, 7ms

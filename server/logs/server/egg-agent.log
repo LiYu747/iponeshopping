@@ -507,3 +507,13 @@ hostname: Trayvon
 2020-07-06 15:40:30,527 INFO 2468 [egg-watcher] Start watching: "C:\\Users\\ddd\\Desktop\\server\\app.js"
 2020-07-06 15:40:30,528 INFO 2468 [egg-watcher:agent] watcher start success
 2020-07-06 15:40:30,546 INFO 2468 [egg:core] dump config after ready, 6ms
+2020-07-06 15:47:13,498 INFO 14564 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-06 15:47:13,508 INFO 14564 [egg:core] dump config after load, 5ms
+2020-07-06 15:47:13,588 INFO 14564 [egg-watcher] Start watching: ["C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\app","C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\config","C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\mocks","C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\mocks_proxy","C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\app.js"]
+2020-07-06 15:47:13,588 INFO 14564 [egg-watcher] Start watching: "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\app"
+2020-07-06 15:47:13,588 INFO 14564 [egg-watcher] Start watching: "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\config"
+2020-07-06 15:47:13,589 INFO 14564 [egg-watcher] Start watching: "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\mocks"
+2020-07-06 15:47:13,589 INFO 14564 [egg-watcher] Start watching: "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\mocks_proxy"
+2020-07-06 15:47:13,589 INFO 14564 [egg-watcher] Start watching: "C:\\Users\\ddd\\Desktop\\shopping-ly\\server\\app.js"
+2020-07-06 15:47:13,590 INFO 14564 [egg-watcher:agent] watcher start success
+2020-07-06 15:47:13,612 INFO 14564 [egg:core] dump config after ready, 9ms
