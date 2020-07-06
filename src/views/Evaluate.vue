@@ -49,6 +49,7 @@
 </template>
 
 <script>
+import { Toast } from 'vant';
  export default {
    name: '',
    props: {
@@ -81,6 +82,8 @@
          anonymous:this.checked,_id:this.msg._id,order_id:this.msg.order_id,image:this.image})
          .then(res=>{
              console.log(res);
+             Toast.success(res.msg)
+             this.$router.go(-1)
          })
          .catch(err=>{
              console.log(err);

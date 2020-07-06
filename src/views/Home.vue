@@ -80,6 +80,7 @@ import { Toast } from 'vant'
     }
    },
    mounted() {
+    
      this.$api.homeAll()
      .then(res=>{
        this.$store.commit('setrotation',res.data.slides)

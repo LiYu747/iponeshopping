@@ -72,7 +72,7 @@
      return {
    arr:{},
    year:'',
-    minDate: new Date(2020, 0, 1),
+    minDate: new Date(2000, 0, 1),
       maxDate: new Date(2025, 10, 1),
       currentDate:'' ,
       one:'',
@@ -105,6 +105,7 @@
        this.one = dayjs(val).format('YYYY')
        this.two = dayjs(val).format('MM')
        this.three = dayjs(val).format('DD')
+       this.falg = 0
      },
      cancel(){
           this.$api

@@ -2436,3 +2436,27 @@ reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected
 pid: 14120
 hostname: DESKTOP-A6LIVN7
 
+2020-07-05 22:31:20,301 ERROR 6220 nodejs.ClusterClientNoResponseError: client no response in 259440ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 6220
+hostname: DESKTOP-A6LIVN7
+
+2020-07-05 22:40:51,703 ERROR 6220 nodejs.ClusterClientNoResponseError: client no response in 551377ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 6220
+hostname: DESKTOP-A6LIVN7
+
+2020-07-05 23:11:38,532 ERROR 6220 nodejs.ClusterClientNoResponseError: client no response in 406581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\ddd\Desktop\shopping-ly\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 6220
+hostname: DESKTOP-A6LIVN7
+

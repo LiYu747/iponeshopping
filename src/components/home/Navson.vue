@@ -2,7 +2,8 @@
  <div>
       <div class="box flex al-center ju-center pos-rel">
           <div class=" fz-12 pos-abs city flex al-center" @click="cityy">
-            <div class="box-o flex al-center ju-center">{{city}}</div>
+            <div v-if="city===''" class="box-o flex al-center ju-center">定位中···</div>
+            <div v-else class="box-o flex al-center ju-center">{{city}}</div>
               <div class="move pos-abs">▼</div>
               </div> 
  <van-search
@@ -84,6 +85,8 @@
 </template>
 
 <script>
+import uniqWith from 'lodash/uniqWith'
+import isEqual from 'lodash/isEqual'
  export default {
    name: '',
    props: {
@@ -149,7 +152,7 @@
    },
    mounted() {
      if(localStorage.Manual){
-        this.city = JSON.parse(localStorage.getItem('Manual')).name
+        this.city = JSON.parse(localStorage.getItem('Manual'))
      }
      else{
           let _this = this
@@ -174,14 +177,17 @@
   function onComplete (data) {
     // data是具体的定位信息
    _this.city = data.addressComponent.city
+    _this.$store.commit('setCity',data.addressComponent.city)
   }
   function onError (data) {
     // 定位出错
   }
 })
      }
-   
- this.Atext = JSON.parse(localStorage.getItem('IpValue')) 
+     let Atext = JSON.parse(localStorage.getItem('IpValue'))
+    this.Atext = uniqWith(Atext,isEqual)
+ 
+  console.log(this.city);
   
    },
    watch: {

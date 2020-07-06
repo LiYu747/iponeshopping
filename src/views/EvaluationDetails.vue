@@ -3,7 +3,7 @@
      <!-- 评论详情 -->
         <div class="van-hairline--bottom">
        <div class=" flex ju-center pad pos-rel">
-     <div class="lft pos-abs"> <van-icon name="arrow-left"  color="rgb(101,152,250)"/> </div>    
+     <div @click="rueter"  class="lft pos-abs"> <van-icon name="arrow-left"  color="rgb(101,152,250)"/> </div>    
    <div>评价详情</div> 
        </div>
      </div>
@@ -30,6 +30,7 @@
 </template>
 
 <script>
+import { Toast } from 'vant';
  export default {
    name: '',
    props: {
@@ -46,7 +47,15 @@
    },
    methods: {
      gotosppimg(){
+        this.$api.AddToCart(this.all.cid)
+       .then(res=>{
+         console.log(res);
+         Toast.success(res.msg)
+    
+       })
+       .catch(err=>{
 
+       })
      },
      rueter(){
          this.$router.go(-1)

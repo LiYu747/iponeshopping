@@ -28,6 +28,7 @@
 </template>
 
 <script>
+import { Dialog } from 'vant';
  export default {
    name: '',
    props: {
@@ -49,13 +50,22 @@ cancel(){
    this.arr.map(item=>{
         this.id = item.cid 
    })
-    this.$api.CancelCollection({id:this.id})
+   this.$dialog
+        .confirm({
+          title: "提示",
+          message: "您确定要删除吗"
+        })
+        .then(() => {
+            this.$api.CancelCollection({id:this.id})
       .then(res=>{
       console.log(res);
       })
       .catch(err=>{
       })
        this.Collection()
+            })
+            .catch(err => {});
+   
        },
 
       Collection(){

@@ -54,9 +54,9 @@
           </van-tab>
           <van-tab title="商品评价">
             <!-- 名字头像 -->
-            <div class="van-hairline--bottom fz-14">
+            <div v-if="name!==null" class="van-hairline--bottom fz-14">
                 <div v-for="(items,indexs) in young" :key="indexs">
-                    <div v-if="name!==null"><div  v-for="(item,index) in items.user" :key="index"></div>       
+                   <div  v-for="(item,index) in items.user" :key="index">       
                          <div class="flex pos-rel">
                      <div class="m-t1 m-l1"><img :src="item.avatar" alt="" class="v-img"></div>
                      <div>
@@ -83,7 +83,7 @@
     </div>
     <!-- 商品导航 -->
     <van-goods-action>
-      <van-goods-action-icon icon="wap-home-o" text="首页" />
+      <van-goods-action-icon icon="wap-home-o" to='/' text="首页" />
       <van-goods-action-icon icon="cart-o" to='/ShoppingCart' text="购物车" />
       <van-goods-action-button type="warning" @click="gotocat" text="加入购物车" />
       <van-goods-action-button type="danger" @click="showPopup" text="立即购买" />
@@ -126,6 +126,7 @@
 import BScroll from "better-scroll";
 import { Toast } from 'vant';
 import { Dialog } from 'vant';
+import city from '../lib/city';
 export default {
   name: "",
   props: {},
@@ -285,6 +286,7 @@ export default {
       })
       .catch(ree => {});
      
+    
        
      
     // 下拉滑动

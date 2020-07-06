@@ -14,7 +14,7 @@
  <!-- 当前城市 -->
        <div class=" fz-14 text">当前城市</div>
       <div class="box-th fz-14">
-      <div class="cit flex al-center ju-center">{{citys}}</div> 
+      <div @click="gogo" class="cit flex al-center ju-center">{{citys}}</div> 
       </div>
       <!-- 热门城市 -->
       <div class="city-f fz-14 flex al-center">热门城市</div>
@@ -77,10 +77,13 @@ export default {
        }
  },
     goto(item){
-          console.log(item);
       this.$router.push('/')
-      localStorage.setItem('Manual',JSON.stringify(item))
+      localStorage.setItem('Manual',JSON.stringify(item.name))
     },
+    gogo(){
+        this.$router.push('/')
+      localStorage.setItem('Manual',JSON.stringify(this.citys))
+    }
         
   },
   mounted() {
@@ -90,12 +93,14 @@ export default {
            this.boox.push(items)
            })
        })
+        
   },
   watch: {},
   computed: {
     citys(){
       return this.$store.state.city
     }
+   
   }
 };
 </script>

@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import { Dialog } from 'vant';
 import groupBy from 'lodash/groupBy'
 import uniqWith from 'lodash/uniqWith'
 import isEqual from 'lodash/isEqual'
@@ -46,9 +47,19 @@ import isEqual from 'lodash/isEqual'
       rete(){
         this.$router.go(-1)
       },
+      
       del(item,index){
-         this.arr.splice(index,1)
+            this.$dialog
+        .confirm({
+          title: "提示",
+          message: "您确定要删除吗"
+        })
+        .then(() => {
+            this.arr.splice(index,1)
          localStorage.setItem('views',JSON.stringify(this.arr))
+            })
+            .catch(err => {});
+        
       }
    },
    mounted() {

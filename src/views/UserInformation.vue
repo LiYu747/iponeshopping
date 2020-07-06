@@ -59,7 +59,7 @@
         <div class="fz-12">评价</div>
       </div>
 
-      <div class="flex-d al-center">
+      <div @click="complete" class="flex-d al-center">
         <div class="Icon">
           <van-icon name="like-o" />
         </div>
@@ -78,6 +78,7 @@
 import Allson from "../components/userInformation/Allson";
 import Baserail from "../components/baserail/Baserail";
 import { Dialog } from 'vant';
+import city from '../lib/city';
 export default {
   name: "",
   props: {},
@@ -138,6 +139,24 @@ export default {
     },
     Modify() {
       this.$router.push("/Modify");
+    },
+    complete(){
+      if(this.name===null){
+             Dialog.confirm({
+          title: '标题',
+          message: '您还没登录，去登陆吧~~~',
+       })
+       .then(() => {
+    // on confirm
+      })
+       .catch(() => {
+    // on cancel
+  });
+      }
+      else{
+      this.$router.push("/Allorders");
+      }
+      
     }
   },
   mounted() {
